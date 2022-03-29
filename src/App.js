@@ -1,9 +1,11 @@
 import Header from "./components/Header"
+import Main from "./components/Main"
 
 export default function App() {
   return (
-    <div className="wrapper">
+    <div className="wrapper min-h-screen">
       <Header />
+      <Main />
     </div>
   )
 }

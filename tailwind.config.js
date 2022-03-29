@@ -6,7 +6,8 @@ module.exports = {
     extend: {
       fontFamily: {
         nunito: ['Nunito', 'sans-serif'],
-        indie: ["Indie Flower", "cursive"]
+        indie: ["Indie Flower", "cursive"],
+        sacra: ["Sacramento", "cursive"],
       }
     },
   },
