@@ -3,7 +3,7 @@ import Main from "./components/Main"
 
 export default function App() {
   return (
-    <div className="wrapper min-h-screen">
+    <div>
       <Header />
       <Main />
     </div>

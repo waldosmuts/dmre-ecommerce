@@ -1,17 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.header--hero-img {
+header {
   height: 650px;
   -webkit-animation: sway 60s ease-in-out infinite;
           animation: sway 60s ease-in-out infinite;
-}
-
-.header--hero-heading {
-  height: 650px;
+  background: url("../../images/hero1280.jpg");
 }
 
 .header--noise {
+  height: 650px;
   background: center/contain repeat url("../../images/noise.png");
   -webkit-animation: noise .5s linear infinite;
           animation: noise .5s linear infinite;
@@ -19,10 +17,6 @@
 
 .nav--logo {
   height: 200px;
-}
-
-main {
-  margin-top: calc(650px - 128px);
 }
 
 .description--easy {
@@ -35,6 +29,24 @@ main {
 
 .description--light {
   background: center/cover no-repeat url("../../images/description-light.jpg");
+}
+
+.categories--breakfast {
+  background: center/cover no-repeat url("../../images/category-breakfast.jpg");
+  background-position: 50% 80%;
+}
+
+.categories--dinner {
+  background: center/cover no-repeat url("../../images/category-dinner.jpg");
+}
+
+.categories--spreads {
+  background: center/cover no-repeat url("../../images/category-spread.jpg");
+  background-position: 50% 90%;
+}
+
+.categories--snacks {
+  background: center/cover no-repeat url("../../images/category-snack.jpg");
 }
 
 @-webkit-keyframes noise {
@@ -105,42 +117,37 @@ main {
 
 @-webkit-keyframes sway {
   0%, 100% {
-    object-position: 50% 50%;
+    background-position: 50% 50%;
   }
   20% {
-    object-position: 65% 10%;
+    background-position: 65% 10%;
   }
   40% {
-    object-position: 15% 5%;
+    background-position: 15% 5%;
   }
   60% {
-    object-position: 7% 25%;
+    background-position: 7% 25%;
   }
   80% {
-    object-position: 25% 10%;
+    background-position: 25% 10%;
   }
 }
 
 @keyframes sway {
   0%, 100% {
-    -o-object-position: 50% 50%;
-       object-position: 50% 50%;
+    background-position: 50% 50%;
   }
   20% {
-    -o-object-position: 65% 10%;
-       object-position: 65% 10%;
+    background-position: 65% 10%;
   }
   40% {
-    -o-object-position: 15% 5%;
-       object-position: 15% 5%;
+    background-position: 15% 5%;
   }
   60% {
-    -o-object-position: 7% 25%;
-       object-position: 7% 25%;
+    background-position: 7% 25%;
   }
   80% {
-    -o-object-position: 25% 10%;
-       object-position: 25% 10%;
+    background-position: 25% 10%;
   }
 }
 /*# sourceMappingURL=index.css.map */
